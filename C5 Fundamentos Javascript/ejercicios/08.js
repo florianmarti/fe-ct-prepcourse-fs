@@ -7,7 +7,7 @@ function esNumeroEntero(numero) {
   // -1212 ---> true 
   // 121.212 ---> false 
   // Tu código:
-  return numero.isInteger(numero)
+   return Number.isInteger(numero)
 }
-console.log(esNumeroEntero(5.1))
+  
 module.exports = esNumeroEntero;
